@@ -4,7 +4,7 @@ import java.util.ArrayList;
 import java.util.Collections;
 import java.util.List;
 
-// ENTITY
+// ENTITY - AGGREGATE ROOT
 public class Aluno {
 
     private final CPF cpf;
