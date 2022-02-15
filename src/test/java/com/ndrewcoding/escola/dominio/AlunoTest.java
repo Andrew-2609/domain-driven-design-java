@@ -24,8 +24,16 @@ public class AlunoTest {
     @Test
     void deveriaPermitirAdicionarUmTelefone() {
         this.aluno.adicionarTelefone("85", "91234-5678");
-        
+
         assertEquals(1, this.aluno.getTelefones().size());
+    }
+
+    @Test
+    void deveriaPermitirAdicionarDoisTelefones() {
+        this.aluno.adicionarTelefone("85", "91234-5678");
+        this.aluno.adicionarTelefone("85", "95678-9012");
+
+        assertEquals(2, this.aluno.getTelefones().size());
     }
 
 }
