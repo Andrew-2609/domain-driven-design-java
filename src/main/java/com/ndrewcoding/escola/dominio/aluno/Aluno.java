@@ -19,6 +19,9 @@ public class Aluno {
     }
 
     public void adicionarTelefone(String ddd, String numero) {
+        if (this.telefones.size() == 2) {
+            throw new LimiteDeTelefonesAtingidoException("Esse aluno já atingiu o limite de telefones cadastrados.");
+        }
         this.telefones.add(new Telefone(ddd, numero));
     }
 
