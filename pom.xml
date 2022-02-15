@@ -5,7 +5,7 @@
     <modelVersion>4.0.0</modelVersion>
 
     <groupId>com.ndrewcoding</groupId>
-    <artifactId>clean-architecture-java</artifactId>
+    <artifactId>domain-driven-design-java</artifactId>
     <version>1.0-SNAPSHOT</version>
 
     <properties>
