@@ -35,9 +35,4 @@ public class MatricularAlunoTest {
         assertEquals("andrew@email.com", alunoEncontrado.getEmailAluno());
     }
 
-    @Test
-    void naoDeveriaCadastrarAlunoComMaximoDeTelefonesAtingido() {
-
-    }
-
 }
