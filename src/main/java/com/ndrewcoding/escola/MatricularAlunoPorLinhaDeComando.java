@@ -2,6 +2,8 @@ package com.ndrewcoding.escola;
 
 import com.ndrewcoding.escola.aplicacao.aluno.matricular.MatricularAluno;
 import com.ndrewcoding.escola.aplicacao.aluno.matricular.MatricularAlunoDTO;
+import com.ndrewcoding.escola.dominio.PublicadorDeEventos;
+import com.ndrewcoding.escola.dominio.aluno.LogDeAlunoMatriculado;
 import com.ndrewcoding.escola.infra.aluno.RepositorioDeAlunosEmMemoria;
 
 public class MatricularAlunoPorLinhaDeComando {
@@ -11,7 +13,10 @@ public class MatricularAlunoPorLinhaDeComando {
         String nome = "Andrew Monteiro";
         String email = "andrew@email.com";
 
-        MatricularAluno matricularAluno = new MatricularAluno(new RepositorioDeAlunosEmMemoria());
+        PublicadorDeEventos publicadorDeEventos = new PublicadorDeEventos();
+        publicadorDeEventos.adicionar(new LogDeAlunoMatriculado());
+
+        MatricularAluno matricularAluno = new MatricularAluno(new RepositorioDeAlunosEmMemoria(), publicadorDeEventos);
         matricularAluno.executar(new MatricularAlunoDTO(cpf, nome, email));
 
     }
