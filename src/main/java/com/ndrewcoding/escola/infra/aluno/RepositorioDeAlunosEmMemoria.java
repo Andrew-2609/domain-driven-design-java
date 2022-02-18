@@ -21,7 +21,7 @@ public class RepositorioDeAlunosEmMemoria implements RepositorioDeAlunos {
     public Aluno buscarPorCPF(CPF cpf) {
         return alunosMatriculados
                 .stream()
-                .filter(aluno -> aluno.getCpf().equals(cpf.getNumero()))
+                .filter(aluno -> aluno.getCpf().equals(cpf))
                 .findFirst()
                 .orElseThrow(() -> new AlunoNaoEncontradoPorCPFException(cpf));
     }

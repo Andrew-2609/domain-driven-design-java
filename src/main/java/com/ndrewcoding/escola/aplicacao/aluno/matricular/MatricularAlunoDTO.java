@@ -17,7 +17,7 @@ public class MatricularAlunoDTO {
     }
 
     public MatricularAlunoDTO(Aluno aluno) {
-        this.cpfAluno = aluno.getCpf();
+        this.cpfAluno = aluno.getCpf().getNumero();
         this.nomeAluno = aluno.getNome();
         this.emailAluno = aluno.getEmail();
     }
