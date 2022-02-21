@@ -6,4 +6,6 @@ public interface Evento {
 
     LocalDateTime momento();
 
+    TipoDeEvento tipo();
+
 }
