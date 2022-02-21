@@ -1,7 +1,7 @@
 package com.ndrewcoding.escola.academico.dominio.aluno;
 
-import com.ndrewcoding.escola.academico.dominio.Evento;
-import com.ndrewcoding.escola.academico.dominio.Ouvinte;
+import com.ndrewcoding.escola.shared.dominio.evento.Evento;
+import com.ndrewcoding.escola.shared.dominio.evento.Ouvinte;
 
 import java.time.format.DateTimeFormatter;
 

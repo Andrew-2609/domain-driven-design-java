@@ -2,7 +2,7 @@ package com.ndrewcoding.escola.academico;
 
 import com.ndrewcoding.escola.academico.aplicacao.aluno.matricular.MatricularAlunoDTO;
 import com.ndrewcoding.escola.academico.aplicacao.aluno.matricular.MatricularAluno;
-import com.ndrewcoding.escola.academico.dominio.PublicadorDeEventos;
+import com.ndrewcoding.escola.shared.dominio.evento.PublicadorDeEventos;
 import com.ndrewcoding.escola.academico.dominio.aluno.LogDeAlunoMatriculado;
 import com.ndrewcoding.escola.academico.infra.aluno.RepositorioDeAlunosEmMemoria;
 

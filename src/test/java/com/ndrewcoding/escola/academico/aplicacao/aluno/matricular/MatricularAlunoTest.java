@@ -1,7 +1,7 @@
 package com.ndrewcoding.escola.academico.aplicacao.aluno.matricular;
 
 import com.ndrewcoding.escola.shared.dominio.CPF;
-import com.ndrewcoding.escola.academico.dominio.PublicadorDeEventos;
+import com.ndrewcoding.escola.shared.dominio.evento.PublicadorDeEventos;
 import com.ndrewcoding.escola.academico.dominio.aluno.LogDeAlunoMatriculado;
 import com.ndrewcoding.escola.academico.infra.aluno.RepositorioDeAlunosEmMemoria;
 import org.junit.jupiter.api.BeforeAll;

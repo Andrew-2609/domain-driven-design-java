@@ -1,4 +1,4 @@
-package com.ndrewcoding.escola.academico.dominio;
+package com.ndrewcoding.escola.shared.dominio.evento;
 
 import java.time.LocalDateTime;
 

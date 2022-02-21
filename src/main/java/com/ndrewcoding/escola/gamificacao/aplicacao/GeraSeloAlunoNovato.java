@@ -1,7 +1,7 @@
 package com.ndrewcoding.escola.gamificacao.aplicacao;
 
-import com.ndrewcoding.escola.academico.dominio.Evento;
-import com.ndrewcoding.escola.academico.dominio.Ouvinte;
+import com.ndrewcoding.escola.shared.dominio.evento.Evento;
+import com.ndrewcoding.escola.shared.dominio.evento.Ouvinte;
 
 public class GeraSeloAlunoNovato extends Ouvinte {
 

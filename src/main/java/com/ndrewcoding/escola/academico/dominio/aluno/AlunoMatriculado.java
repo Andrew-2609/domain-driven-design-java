@@ -1,6 +1,6 @@
 package com.ndrewcoding.escola.academico.dominio.aluno;
 
-import com.ndrewcoding.escola.academico.dominio.Evento;
+import com.ndrewcoding.escola.shared.dominio.evento.Evento;
 import com.ndrewcoding.escola.shared.dominio.CPF;
 
 import java.time.LocalDateTime;
