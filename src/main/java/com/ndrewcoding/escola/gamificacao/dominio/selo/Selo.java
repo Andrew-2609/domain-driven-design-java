@@ -1,6 +1,6 @@
 package com.ndrewcoding.escola.gamificacao.dominio.selo;
 
-import com.ndrewcoding.escola.academico.dominio.aluno.CPF;
+import com.ndrewcoding.escola.shared.dominio.CPF;
 
 public class Selo {
 

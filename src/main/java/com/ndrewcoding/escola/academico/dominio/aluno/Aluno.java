@@ -1,5 +1,7 @@
 package com.ndrewcoding.escola.academico.dominio.aluno;
 
+import com.ndrewcoding.escola.shared.dominio.CPF;
+
 import java.util.ArrayList;
 import java.util.Collections;
 import java.util.List;

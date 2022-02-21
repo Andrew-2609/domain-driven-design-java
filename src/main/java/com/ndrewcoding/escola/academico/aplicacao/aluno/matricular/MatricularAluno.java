@@ -3,7 +3,7 @@ package com.ndrewcoding.escola.academico.aplicacao.aluno.matricular;
 import com.ndrewcoding.escola.academico.dominio.PublicadorDeEventos;
 import com.ndrewcoding.escola.academico.dominio.aluno.Aluno;
 import com.ndrewcoding.escola.academico.dominio.aluno.AlunoMatriculado;
-import com.ndrewcoding.escola.academico.dominio.aluno.CPF;
+import com.ndrewcoding.escola.shared.dominio.CPF;
 import com.ndrewcoding.escola.academico.dominio.aluno.RepositorioDeAlunos;
 
 import java.util.List;

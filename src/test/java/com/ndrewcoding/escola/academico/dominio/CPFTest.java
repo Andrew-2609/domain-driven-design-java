@@ -1,6 +1,6 @@
 package com.ndrewcoding.escola.academico.dominio;
 
-import com.ndrewcoding.escola.academico.dominio.aluno.CPF;
+import com.ndrewcoding.escola.shared.dominio.CPF;
 import org.junit.jupiter.api.Test;
 
 import static org.junit.jupiter.api.Assertions.assertDoesNotThrow;

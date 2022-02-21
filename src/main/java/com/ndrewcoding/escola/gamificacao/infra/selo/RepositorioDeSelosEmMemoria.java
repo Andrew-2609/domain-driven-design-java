@@ -1,6 +1,6 @@
 package com.ndrewcoding.escola.gamificacao.infra.selo;
 
-import com.ndrewcoding.escola.academico.dominio.aluno.CPF;
+import com.ndrewcoding.escola.shared.dominio.CPF;
 import com.ndrewcoding.escola.gamificacao.dominio.selo.RepositorioDeSelos;
 import com.ndrewcoding.escola.gamificacao.dominio.selo.Selo;
 

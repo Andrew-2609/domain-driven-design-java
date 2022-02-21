@@ -1,5 +1,7 @@
 package com.ndrewcoding.escola.academico.dominio.aluno;
 
+import com.ndrewcoding.escola.shared.dominio.CPF;
+
 public class FabricaDeAlunos {
 
     private Aluno aluno;

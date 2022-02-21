@@ -1,4 +1,4 @@
-package com.ndrewcoding.escola.academico.dominio.aluno;
+package com.ndrewcoding.escola.shared.dominio;
 
 // VALUE OBJECT
 public class CPF {

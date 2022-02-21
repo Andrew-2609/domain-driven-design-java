@@ -2,6 +2,7 @@ package com.ndrewcoding.escola.academico.infra.aluno;
 
 import com.ndrewcoding.escola.academico.dominio.aluno.*;
 import com.ndrewcoding.escola.dominio.aluno.*;
+import com.ndrewcoding.escola.shared.dominio.CPF;
 
 import java.sql.Connection;
 import java.sql.PreparedStatement;
