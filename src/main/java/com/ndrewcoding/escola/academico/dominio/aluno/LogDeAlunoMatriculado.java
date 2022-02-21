@@ -2,6 +2,7 @@ package com.ndrewcoding.escola.academico.dominio.aluno;
 
 import com.ndrewcoding.escola.shared.dominio.evento.Evento;
 import com.ndrewcoding.escola.shared.dominio.evento.Ouvinte;
+import com.ndrewcoding.escola.shared.dominio.evento.TipoDeEvento;
 
 import java.time.format.DateTimeFormatter;
 
@@ -16,7 +17,7 @@ public class LogDeAlunoMatriculado extends Ouvinte {
 
     @Override
     protected boolean deveProcessar(Evento evento) {
-        return evento instanceof AlunoMatriculado;
+        return evento.tipo() == TipoDeEvento.ALUNO_MATRICULADO;
     }
 
 }
