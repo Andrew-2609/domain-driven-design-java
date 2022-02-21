@@ -1,4 +1,4 @@
-package com.ndrewcoding.escola.academico.dominio.selo;
+package com.ndrewcoding.escola.gamificacao.dominio.selo;
 
 import com.ndrewcoding.escola.academico.dominio.aluno.CPF;
 

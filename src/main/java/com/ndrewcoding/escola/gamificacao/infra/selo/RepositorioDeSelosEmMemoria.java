@@ -1,8 +1,8 @@
-package com.ndrewcoding.escola.academico.infra.selo;
+package com.ndrewcoding.escola.gamificacao.infra.selo;
 
 import com.ndrewcoding.escola.academico.dominio.aluno.CPF;
-import com.ndrewcoding.escola.academico.dominio.selo.RepositorioDeSelos;
-import com.ndrewcoding.escola.academico.dominio.selo.Selo;
+import com.ndrewcoding.escola.gamificacao.dominio.selo.RepositorioDeSelos;
+import com.ndrewcoding.escola.gamificacao.dominio.selo.Selo;
 
 import java.util.ArrayList;
 import java.util.List;
