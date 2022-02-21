@@ -1,8 +1,8 @@
 package com.ndrewcoding.escola.gamificacao.aplicacao;
 
-import com.ndrewcoding.escola.academico.dominio.aluno.AlunoMatriculado;
 import com.ndrewcoding.escola.shared.dominio.evento.Evento;
 import com.ndrewcoding.escola.shared.dominio.evento.Ouvinte;
+import com.ndrewcoding.escola.shared.dominio.evento.TipoDeEvento;
 
 public class GeraSeloAlunoNovato extends Ouvinte {
 
@@ -13,7 +13,7 @@ public class GeraSeloAlunoNovato extends Ouvinte {
 
     @Override
     protected boolean deveProcessar(Evento evento) {
-        return evento instanceof AlunoMatriculado;
+        return evento.tipo() == TipoDeEvento.ALUNO_MATRICULADO;
     }
 
 }
