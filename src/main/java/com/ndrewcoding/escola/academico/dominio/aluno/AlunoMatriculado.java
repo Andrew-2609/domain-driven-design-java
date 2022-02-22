@@ -5,6 +5,7 @@ import com.ndrewcoding.escola.shared.dominio.evento.Evento;
 import com.ndrewcoding.escola.shared.dominio.evento.TipoDeEvento;
 
 import java.time.LocalDateTime;
+import java.util.Map;
 
 public class AlunoMatriculado implements Evento {
 
@@ -24,6 +25,11 @@ public class AlunoMatriculado implements Evento {
     @Override
     public TipoDeEvento tipo() {
         return TipoDeEvento.ALUNO_MATRICULADO;
+    }
+
+    @Override
+    public Map<String, Object> informacoes() {
+        return Map.of("cpfDoAluno", cpfDoAluno);
     }
 
     public CPF getCpfDoAluno() {
